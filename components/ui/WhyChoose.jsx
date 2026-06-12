@@ -13,19 +13,19 @@ const pillars = [
     title: "Quality",
     description: "Premium paper stock, true colour and crisp finishing.",
     icon: Shield,
-    iconColor: "text-[#D8A53B]",
+    iconColor: "text-[#BD9541]",
   },
   {
     title: "Precision",
     description: "Pixel-perfect alignment, accurate cuts, exact dimensions.",
     icon: Target,
-    iconColor: "text-cyan-500",
+    iconColor: "text-[#033C2D]",
   },
   {
     title: "Creativity",
     description: "Free design consultation by our in-house creative team.",
     icon: Palette,
-    iconColor: "text-pink-500",
+    iconColor: "text-[#BD9541]",
   },
   {
     title: "Reliability",
@@ -37,7 +37,7 @@ const pillars = [
 
 export default function WhyChoose() {
   return (
-    <section className="relative overflow-hidden bg-[#F8FAFC] py-16 md:py-24">
+    <section className="relative overflow-hidden bg-[#F7F8F5] py-16 md:py-24">
       {/* Grid Background */}
       <div
         className="absolute inset-0 opacity-40"
@@ -53,12 +53,12 @@ export default function WhyChoose() {
       <div className="relative mx-auto max-w-7xl px-4">
         {/* Heading */}
         <div className="mx-auto max-w-3xl text-center">
-          <span className="inline-block rounded-full bg-[#EFE4CB] px-4 py-1 text-xs font-semibold uppercase tracking-wider text-[#D8A53B]">
+          <span className="inline-block rounded-full bg-[#EFE6D4] px-4 py-1 text-xs font-semibold uppercase tracking-wider text-[#BD9541]">
             Why Vertex
           </span>
 
-          <h2 className="mt-5 text-4xl font-bold text-[#021B52] md:text-5xl lg:text-6xl">
-            Built on five <span className="text-[#D8A53B]">pillars</span>
+          <h2 className="mt-5 text-4xl font-bold text-[#033C2D] md:text-5xl lg:text-6xl">
+            Built on five <span className="text-[#BD9541]">pillars</span>
           </h2>
 
           <p className="mt-5 text-lg text-slate-600">
@@ -81,7 +81,7 @@ export default function WhyChoose() {
                   <Icon size={30} className={pillar.iconColor} />
                 </div>
 
-                <h3 className="mt-6 text-3xl font-bold text-[#021B52]">
+                <h3 className="mt-6 text-3xl font-bold text-[#033C2D]">
                   {pillar.title}
                 </h3>
 

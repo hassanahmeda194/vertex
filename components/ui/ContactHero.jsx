@@ -1,8 +1,8 @@
 export default function ContactHero() {
   return (
-    <section className="bg-gradient-to-r from-[#021B52] via-[#08245A] to-[#24395D] py-24">
+    <section className="bg-gradient-to-r from-[#033C2D] via-[#064635] to-[#1F2429] py-24">
       <div className="mx-auto max-w-5xl px-4 text-center">
-        <span className="inline-block rounded-full bg-[#D8A53B]/20 px-4 py-1 text-xs font-semibold uppercase tracking-wider text-[#D8A53B]">
+        <span className="inline-block rounded-full bg-[#BD9541]/20 px-4 py-1 text-xs font-semibold uppercase tracking-wider text-[#BD9541]">
           Contact
         </span>
 

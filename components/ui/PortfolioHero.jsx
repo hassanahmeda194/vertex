@@ -2,9 +2,9 @@
 
 export default function PortfolioHero() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-r from-[#021B52] via-[#08245B] to-[#1F3152]">
+    <section className="relative overflow-hidden bg-gradient-to-r from-[#033C2D] via-[#064635] to-[#1F2429]">
       {/* Top CMYK Line */}
-      <div className="absolute top-0 left-0 h-[3px] w-full bg-gradient-to-r from-cyan-400 via-pink-500 to-yellow-400" />
+      <div className="absolute top-0 left-0 h-[3px] w-full bg-gradient-to-r from-[#033C2D] via-[#BD9541] to-[#1F2429]" />
 
       {/* Glow */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.05),transparent_65%)]" />
@@ -12,7 +12,7 @@ export default function PortfolioHero() {
       <div className="relative mx-auto flex min-h-[360px] max-w-7xl items-center justify-center px-4 py-20 md:min-h-[420px]">
         <div className="max-w-4xl text-center">
           {/* Badge */}
-          <span className="inline-flex rounded-full bg-[#D8A53B]/15 px-5 py-2 text-xs font-semibold uppercase tracking-[2px] text-[#D8A53B]">
+          <span className="inline-flex rounded-full bg-[#BD9541]/15 px-5 py-2 text-xs font-semibold uppercase tracking-[2px] text-[#BD9541]">
             Portfolio
           </span>
 

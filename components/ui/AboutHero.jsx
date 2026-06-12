@@ -29,10 +29,10 @@ export default function AboutHero() {
   return (
     <section className="relative overflow-hidden">
       {/* Hero */}
-      <div className="bg-gradient-to-r from-[#021B52] via-[#08245B] to-[#24395C] py-24 md:py-32">
+      <div className="bg-gradient-to-r from-[#033C2D] via-[#064635] to-[#1F2429] py-24 md:py-32">
         <div className="mx-auto max-w-6xl px-4 text-center">
           {/* Badge */}
-          <span className="inline-flex rounded-full bg-[#D8A53B]/15 px-5 py-2 text-xs font-semibold uppercase tracking-[2px] text-[#D8A53B]">
+          <span className="inline-flex rounded-full bg-[#BD9541]/15 px-5 py-2 text-xs font-semibold uppercase tracking-[2px] text-[#BD9541]">
             About Us
           </span>
 
@@ -62,9 +62,9 @@ export default function AboutHero() {
                   key={index}
                   className="flex flex-col items-center px-8 py-10 text-center"
                 >
-                  <Icon size={34} className="mb-5 text-[#D8A53B]" />
+                  <Icon size={34} className="mb-5 text-[#BD9541]" />
 
-                  <h3 className="text-4xl font-bold text-[#021B52]">
+                  <h3 className="text-4xl font-bold text-[#033C2D]">
                     {item.value}
                   </h3>
 

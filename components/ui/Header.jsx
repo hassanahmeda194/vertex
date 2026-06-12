@@ -15,7 +15,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="bg-[#F4F5F7]">
+      <header className="bg-[#F2F4EF]">
         <div className="mx-auto max-w-7xl px-6">
           <div className="flex h-20 items-center justify-between">
             {/* Logo */}
@@ -30,7 +30,7 @@ export default function Header() {
             </Link>
 
             {/* Navigation */}
-            <nav className="hidden md:flex items-center gap-2 rounded-full bg-[#ECEFF3] px-3 py-2">
+            <nav className="hidden md:flex items-center gap-2 rounded-full bg-[#E8ECE5] px-3 py-2">
               {navLinks.map((item, index) => (
                 <Link
                   key={item.name}
@@ -50,7 +50,7 @@ export default function Header() {
             <div className="flex items-center gap-6">
               <Link
                 href="services"
-                className="rounded-full bg-[#D9A63A] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#c89527]"
+                className="rounded-full bg-[#BD9541] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#A77F30]"
               >
                 Book an Order
               </Link>
@@ -60,7 +60,7 @@ export default function Header() {
       </header>
 
       {/* Bottom Gradient Line */}
-      <div className="h-[3px] w-full bg-gradient-to-r from-cyan-400 via-pink-500 to-yellow-400" />
+      <div className="h-[3px] w-full bg-gradient-to-r from-[#033C2D] via-[#BD9541] to-[#1F2429]" />
     </>
   );
 }

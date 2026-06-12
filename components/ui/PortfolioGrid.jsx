@@ -5,73 +5,73 @@ const portfolioItems = [
     id: 1,
     category: "VISITING CARDS",
     title: "Visiting Cards Project #1",
-    color: "from-slate-700 via-slate-800 to-amber-700",
+    color: "from-[#033C2D] via-[#064635] to-[#BD9541]",
   },
   {
     id: 2,
     category: "PANAFLEX",
     title: "Panaflex Project #1",
-    color: "from-cyan-200 via-cyan-400 to-slate-900",
+    color: "from-[#E2ECE7] via-[#BD9541] to-[#033C2D]",
   },
   {
     id: 3,
     category: "STICKERS",
     title: "Stickers Project #1",
-    color: "from-pink-500 via-pink-400 to-amber-700",
+    color: "from-[#BD9541] via-[#D6B36A] to-[#033C2D]",
   },
   {
     id: 4,
     category: "BILL BOOKS",
     title: "Bill Books Project #1",
-    color: "from-slate-900 via-slate-800 to-cyan-900",
+    color: "from-[#1F2429] via-[#033C2D] to-[#064635]",
   },
   {
     id: 5,
     category: "LETTERHEAD",
     title: "Letterhead Project #1",
-    color: "from-yellow-400 via-yellow-500 to-pink-300",
+    color: "from-[#D6B36A] via-[#BD9541] to-[#F3E9D7]",
   },
   {
     id: 6,
     category: "T SHIRTS",
     title: "T-Shirt Project #1",
-    color: "from-cyan-400 via-sky-500 to-slate-900",
+    color: "from-[#064635] via-[#BD9541] to-[#1F2429]",
   },
   {
     id: 7,
     category: "MUGS",
     title: "Mug Project #1",
-    color: "from-slate-700 via-slate-800 to-yellow-700",
+    color: "from-[#033C2D] via-[#1F2429] to-[#BD9541]",
   },
   {
     id: 8,
     category: "ID CARDS",
     title: "ID Cards Project #1",
-    color: "from-sky-200 via-cyan-300 to-slate-900",
+    color: "from-[#E2ECE7] via-[#D6B36A] to-[#033C2D]",
   },
   {
     id: 9,
     category: "MEDALS",
     title: "Medal Project #1",
-    color: "from-pink-500 via-pink-400 to-amber-600",
+    color: "from-[#BD9541] via-[#F3E9D7] to-[#064635]",
   },
   {
     id: 10,
     category: "OFFSET PRINTING",
     title: "Offset Printing Project #1",
-    color: "from-slate-950 via-[#001B54] to-cyan-800",
+    color: "from-[#1F2429] via-[#033C2D] to-[#BD9541]",
   },
   {
     id: 11,
     category: "VISITING CARDS",
     title: "Visiting Cards Project #2",
-    color: "from-yellow-400 via-yellow-500 to-pink-300",
+    color: "from-[#D6B36A] via-[#BD9541] to-[#F3E9D7]",
   },
   {
     id: 12,
     category: "MUGS",
     title: "Mug Project #2",
-    color: "from-cyan-400 via-sky-500 to-slate-900",
+    color: "from-[#064635] via-[#BD9541] to-[#1F2429]",
   },
 ];
 
@@ -90,7 +90,7 @@ const filters = [
 
 export default function PortfolioGrid() {
   return (
-    <section className="bg-[#F8FAFC] py-12 lg:py-16">
+    <section className="bg-[#F7F8F5] py-12 lg:py-16">
       <div className="mx-auto max-w-7xl px-4">
         {/* Filters */}
         <div className="mb-10 flex flex-wrap justify-center gap-2">
@@ -100,8 +100,8 @@ export default function PortfolioGrid() {
               className={`rounded-full px-4 py-2 text-xs font-medium transition
                 ${
                   index === 0
-                    ? "bg-[#021B52] text-white"
-                    : "border border-slate-200 bg-white text-slate-600 hover:border-[#021B52]"
+                    ? "bg-[#033C2D] text-white"
+                    : "border border-slate-200 bg-white text-slate-600 hover:border-[#033C2D]"
                 }
               `}
             >

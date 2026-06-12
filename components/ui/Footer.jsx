@@ -13,9 +13,9 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="relative overflow-hidden bg-gradient-to-r from-[#021B52] via-[#052767] to-[#021B52] text-white">
+    <footer className="relative overflow-hidden bg-gradient-to-r from-[#033C2D] via-[#064635] to-[#033C2D] text-white">
       {/* Top Gradient Line */}
-      <div className="h-[3px] bg-gradient-to-r from-cyan-400 via-pink-500 to-yellow-400" />
+      <div className="h-[3px] bg-gradient-to-r from-[#033C2D] via-[#BD9541] to-[#1F2429]" />
 
       <div className="mx-auto max-w-7xl px-6 py-16">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
@@ -32,7 +32,7 @@ export default function Footer() {
 
               <div>
                 <h3 className="font-bold">Vertex</h3>
-                <p className="text-xs uppercase tracking-[2px] text-[#D8A53B]">
+                <p className="text-xs uppercase tracking-[2px] text-[#BD9541]">
                   Print Solutions
                 </p>
               </div>
@@ -45,7 +45,7 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h4 className="mb-5 text-sm font-bold uppercase tracking-wider text-[#D8A53B]">
+            <h4 className="mb-5 text-sm font-bold uppercase tracking-wider text-[#BD9541]">
               Services
             </h4>
 
@@ -79,7 +79,7 @@ export default function Footer() {
 
           {/* Company */}
           <div>
-            <h4 className="mb-5 text-sm font-bold uppercase tracking-wider text-[#D8A53B]">
+            <h4 className="mb-5 text-sm font-bold uppercase tracking-wider text-[#BD9541]">
               Company
             </h4>
 
@@ -107,28 +107,28 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="mb-5 text-sm font-bold uppercase tracking-wider text-[#D8A53B]">
+            <h4 className="mb-5 text-sm font-bold uppercase tracking-wider text-[#BD9541]">
               Get In Touch
             </h4>
 
             <div className="space-y-4 text-sm text-white/75">
               <div className="flex items-start gap-3">
-                <MapPin size={16} className="mt-1 text-[#D8A53B]" />
+                <MapPin size={16} className="mt-1 text-[#BD9541]" />
                 <span>Karachi, Pakistan</span>
               </div>
 
               <div className="flex items-start gap-3">
-                <Phone size={16} className="mt-1 text-[#D8A53B]" />
+                <Phone size={16} className="mt-1 text-[#BD9541]" />
                 <span>+92 318 2287473</span>
               </div>
 
               <div className="flex items-start gap-3">
-                <Mail size={16} className="mt-1 text-[#D8A53B]" />
+                <Mail size={16} className="mt-1 text-[#BD9541]" />
                 <span>hello@vertexprint.com</span>
               </div>
 
               <div className="flex items-start gap-3">
-                <MessageCircle size={16} className="mt-1 text-[#D8A53B]" />
+                <MessageCircle size={16} className="mt-1 text-[#BD9541]" />
                 <span>WhatsApp Us</span>
               </div>
             </div>

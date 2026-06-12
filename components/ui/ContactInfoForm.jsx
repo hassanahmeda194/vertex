@@ -11,7 +11,7 @@ import {
 
 export default function ContactInfoForm() {
   return (
-    <section className="bg-[#F8FAFC] py-20">
+    <section className="bg-[#F7F8F5] py-20">
       <div className="mx-auto max-w-7xl px-4">
         <div className="grid gap-8 lg:grid-cols-[420px_1fr]">
           {/* Left Side */}
@@ -27,7 +27,7 @@ export default function ContactInfoForm() {
                   <div>
                     <p className="text-xs uppercase text-slate-500">WhatsApp</p>
 
-                    <h4 className="font-bold text-[#021B52]">
+                    <h4 className="font-bold text-[#033C2D]">
                       +92 318 2287473
                     </h4>
 
@@ -41,14 +41,14 @@ export default function ContactInfoForm() {
               {/* Phone */}
               <div className="rounded-3xl border bg-white p-5 shadow-sm">
                 <div className="flex items-center gap-4">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#021B52]">
-                    <Phone className="text-[#D8A53B]" />
+                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#033C2D]">
+                    <Phone className="text-[#BD9541]" />
                   </div>
 
                   <div>
                     <p className="text-xs uppercase text-slate-500">Phone</p>
 
-                    <h4 className="font-bold text-[#021B52]">
+                    <h4 className="font-bold text-[#033C2D]">
                       +92 318 2287473
                     </h4>
 
@@ -60,14 +60,14 @@ export default function ContactInfoForm() {
               {/* Email */}
               <div className="rounded-3xl border bg-white p-5 shadow-sm">
                 <div className="flex items-center gap-4">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-cyan-100">
-                    <Mail className="text-cyan-600" />
+                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#E2ECE7]">
+                    <Mail className="text-[#033C2D]" />
                   </div>
 
                   <div>
                     <p className="text-xs uppercase text-slate-500">Email</p>
 
-                    <h4 className="font-bold text-[#021B52]">
+                    <h4 className="font-bold text-[#033C2D]">
                       hello@vertexprint.com
                     </h4>
                   </div>
@@ -77,14 +77,14 @@ export default function ContactInfoForm() {
               {/* Address */}
               <div className="rounded-3xl border bg-white p-5 shadow-sm">
                 <div className="flex items-center gap-4">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-pink-100">
-                    <MapPin className="text-pink-600" />
+                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#F3E9D7]">
+                    <MapPin className="text-[#BD9541]" />
                   </div>
 
                   <div>
                     <p className="text-xs uppercase text-slate-500">Address</p>
 
-                    <h4 className="font-bold text-[#021B52]">
+                    <h4 className="font-bold text-[#033C2D]">
                       Karachi, Pakistan
                     </h4>
                   </div>
@@ -111,7 +111,7 @@ export default function ContactInfoForm() {
                     strokeWidth="2"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    className="h-5 w-5 text-[#021B52]"
+                    className="h-5 w-5 text-[#033C2D]"
                   >
                     <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
                     <path d="M16 11.37a4 4 0 1 1-7.75 1.26 4 4 0 0 1 7.75-1.26z" />
@@ -124,7 +124,7 @@ export default function ContactInfoForm() {
 
           {/* Form */}
           <div className="rounded-[32px] border bg-white p-8 shadow-lg">
-            <h2 className="mb-8 text-3xl font-bold text-[#021B52]">
+            <h2 className="mb-8 text-3xl font-bold text-[#033C2D]">
               Send us a message
             </h2>
 
@@ -191,7 +191,7 @@ export default function ContactInfoForm() {
 
               <button
                 type="submit"
-                className="flex w-full items-center justify-center gap-2 rounded-xl bg-[#D8A53B] py-4 font-semibold text-[#021B52]"
+                className="flex w-full items-center justify-center gap-2 rounded-xl bg-[#BD9541] py-4 font-semibold text-[#033C2D]"
               >
                 <Send size={18} />
                 Send Message

@@ -21,7 +21,7 @@ export default function ServicesGrid() {
   });
 
   return (
-    <section className="bg-[#F8FAFC] py-10">
+    <section className="bg-[#F7F8F5] py-10">
       <div className="mx-auto max-w-7xl px-4">
         {/* Search + Tabs */}
         <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
@@ -50,7 +50,7 @@ export default function ServicesGrid() {
                 className={`rounded-full px-4 py-2 text-sm font-medium transition
                 ${
                   activeTab === tab
-                    ? "bg-[#021B52] text-white"
+                    ? "bg-[#033C2D] text-white"
                     : "border bg-white text-slate-600"
                 }`}
               >
@@ -72,8 +72,8 @@ export default function ServicesGrid() {
               >
                 {/* Header */}
                 <div className="flex items-start justify-between">
-                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#021B52]">
-                    <Icon size={20} className="text-[#D8A53B]" />
+                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#033C2D]">
+                    <Icon size={20} className="text-[#BD9541]" />
                   </div>
 
                   <span className="rounded-full bg-slate-100 px-3 py-1 text-[10px] font-semibold uppercase text-slate-500">
@@ -81,7 +81,7 @@ export default function ServicesGrid() {
                   </span>
                 </div>
 
-                <h3 className="mt-5 text-xl font-bold text-[#021B52]">
+                <h3 className="mt-5 text-xl font-bold text-[#033C2D]">
                   {service.title}
                 </h3>
 
@@ -91,7 +91,7 @@ export default function ServicesGrid() {
 
                 {/* Buttons */}
                 <div className="mt-6 flex gap-2">
-                  <button className="flex-1 rounded-full bg-[#021B52] py-3 text-sm font-medium text-white">
+                  <button className="flex-1 rounded-full bg-[#033C2D] py-3 text-sm font-medium text-white">
                     <span className="flex items-center justify-center gap-2">
                       Order
                       <ArrowRight size={14} />

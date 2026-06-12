@@ -23,16 +23,16 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="bg-[#F8FAFC] py-20 lg:py-28">
+    <section className="bg-[#F7F8F5] py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-4">
         {/* Heading */}
         <div className="mx-auto max-w-3xl text-center">
-          <span className="inline-flex rounded-full bg-[#F6EFD9] px-4 py-1 text-xs font-semibold uppercase tracking-wider text-[#D8A53B]">
+          <span className="inline-flex rounded-full bg-[#F3E9D7] px-4 py-1 text-xs font-semibold uppercase tracking-wider text-[#BD9541]">
             Loved By Clients
           </span>
 
-          <h2 className="mt-5 text-4xl font-bold text-[#021B52] md:text-5xl lg:text-6xl">
-            What our <span className="text-[#D8A53B]">customers</span> say
+          <h2 className="mt-5 text-4xl font-bold text-[#033C2D] md:text-5xl lg:text-6xl">
+            What our <span className="text-[#BD9541]">customers</span> say
           </h2>
         </div>
 
@@ -46,7 +46,7 @@ export default function Testimonials() {
               {/* Stars */}
               <div className="flex gap-1">
                 {[...Array(5)].map((_, i) => (
-                  <Star key={i} size={18} fill="#D8A53B" stroke="#D8A53B" />
+                  <Star key={i} size={18} fill="#BD9541" stroke="#BD9541" />
                 ))}
               </div>
 
@@ -57,12 +57,12 @@ export default function Testimonials() {
 
               {/* User */}
               <div className="mt-8 flex items-center gap-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#021B52] text-lg font-bold text-[#D8A53B]">
+                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#033C2D] text-lg font-bold text-[#BD9541]">
                   {item.name.charAt(0)}
                 </div>
 
                 <div>
-                  <h4 className="font-semibold text-[#021B52]">{item.name}</h4>
+                  <h4 className="font-semibold text-[#033C2D]">{item.name}</h4>
 
                   <p className="text-sm text-slate-500">{item.role}</p>
                 </div>

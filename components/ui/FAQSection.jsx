@@ -39,16 +39,16 @@ export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState(null);
 
   return (
-    <section className="bg-[#F8FAFC] py-20">
+    <section className="bg-[#F7F8F5] py-20">
       <div className="mx-auto max-w-4xl px-4">
         {/* Heading */}
         <div className="text-center">
-          <span className="inline-flex rounded-full bg-[#F6EFD9] px-4 py-1 text-xs font-semibold uppercase tracking-wider text-[#D8A53B]">
+          <span className="inline-flex rounded-full bg-[#F3E9D7] px-4 py-1 text-xs font-semibold uppercase tracking-wider text-[#BD9541]">
             FAQ
           </span>
 
-          <h2 className="mt-5 text-4xl font-bold text-[#021B52] md:text-5xl">
-            Frequently asked <span className="text-[#D8A53B]">questions</span>
+          <h2 className="mt-5 text-4xl font-bold text-[#033C2D] md:text-5xl">
+            Frequently asked <span className="text-[#BD9541]">questions</span>
           </h2>
         </div>
 
@@ -60,7 +60,7 @@ export default function FAQSection() {
               className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm"
             >
               <button
-                className="flex w-full items-center justify-between px-6 py-5 text-left font-medium text-[#021B52]"
+                className="flex w-full items-center justify-between px-6 py-5 text-left font-medium text-[#033C2D]"
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
               >
                 {faq.question}
@@ -83,15 +83,15 @@ export default function FAQSection() {
         </div>
 
         {/* CTA Banner */}
-        <div className="relative mt-20 overflow-hidden rounded-[32px] bg-gradient-to-r from-[#021B52] via-[#082A73] to-[#111827] p-8 md:p-12">
+        <div className="relative mt-20 overflow-hidden rounded-[32px] bg-gradient-to-r from-[#033C2D] via-[#064635] to-[#1F2429] p-8 md:p-12">
           {/* Glow */}
-          <div className="absolute right-0 top-0 h-60 w-60 rounded-full bg-[#D8A53B]/20 blur-3xl" />
+          <div className="absolute right-0 top-0 h-60 w-60 rounded-full bg-[#BD9541]/20 blur-3xl" />
 
           <div className="relative flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
             <div>
               <h3 className="max-w-xl text-4xl font-bold leading-tight text-white">
                 Ready to print something{" "}
-                <span className="text-[#D8A53B]">unforgettable?</span>
+                <span className="text-[#BD9541]">unforgettable?</span>
               </h3>
 
               <p className="mt-4 text-white/70">
@@ -101,7 +101,7 @@ export default function FAQSection() {
             </div>
 
             <div className="flex flex-col gap-3 sm:flex-row">
-              <button className="rounded-full bg-[#D8A53B] px-8 py-4 font-semibold text-[#021B52] transition hover:opacity-90">
+              <button className="rounded-full bg-[#BD9541] px-8 py-4 font-semibold text-[#033C2D] transition hover:opacity-90">
                 Book an Order
               </button>
 

@@ -59,16 +59,16 @@ const services = [
 
 export default function FeaturedServices() {
   return (
-    <section className="bg-[#F8FAFC] py-16 md:py-24">
+    <section className="bg-[#F7F8F5] py-16 md:py-24">
       <div className="container mx-auto px-4">
         {/* Heading */}
         <div className="mx-auto max-w-3xl text-center">
-          <span className="inline-block rounded-full bg-[#E9DDC3] px-4 py-1 text-xs font-semibold uppercase tracking-wider text-[#D8A53B]">
+          <span className="inline-block rounded-full bg-[#EFE6D4] px-4 py-1 text-xs font-semibold uppercase tracking-wider text-[#BD9541]">
             What We Print
           </span>
 
-          <h2 className="mt-4 text-4xl font-bold text-[#021B52] md:text-5xl">
-            Featured <span className="text-[#D8A53B]">Services</span>
+          <h2 className="mt-4 text-4xl font-bold text-[#033C2D] md:text-5xl">
+            Featured <span className="text-[#BD9541]">Services</span>
           </h2>
 
           <p className="mx-auto mt-4 max-w-2xl text-lg text-slate-600">
@@ -85,13 +85,13 @@ export default function FeaturedServices() {
             return (
               <div
                 key={index}
-                className="group rounded-[28px] border border-slate-200 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#D8A53B]/30 hover:shadow-xl"
+                className="group rounded-[28px] border border-slate-200 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-[#BD9541]/30 hover:shadow-xl"
               >
-                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[#021B52]">
-                  <Icon size={24} className="text-[#D8A53B]" />
+                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[#033C2D]">
+                  <Icon size={24} className="text-[#BD9541]" />
                 </div>
 
-                <h3 className="mt-6 text-2xl font-bold text-[#021B52]">
+                <h3 className="mt-6 text-2xl font-bold text-[#033C2D]">
                   {service.title}
                 </h3>
 
@@ -99,7 +99,7 @@ export default function FeaturedServices() {
                   {service.description}
                 </p>
 
-                <button className="mt-6 flex items-center gap-2 font-semibold text-[#021B52] transition-all group-hover:text-[#D8A53B]">
+                <button className="mt-6 flex items-center gap-2 font-semibold text-[#033C2D] transition-all group-hover:text-[#BD9541]">
                   Learn more
                   <ArrowRight size={18} />
                 </button>
@@ -110,7 +110,7 @@ export default function FeaturedServices() {
 
         {/* Button */}
         <div className="mt-12 flex justify-center">
-          <button className="flex items-center gap-3 rounded-full bg-[#021B52] px-8 py-4 text-lg font-semibold text-white transition hover:bg-[#03296f]">
+          <button className="flex items-center gap-3 rounded-full bg-[#033C2D] px-8 py-4 text-lg font-semibold text-white transition hover:bg-[#04513D]">
             View all 22 services
             <ArrowRight size={20} />
           </button>

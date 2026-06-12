@@ -1,6 +1,6 @@
 export default function ContactMap() {
   return (
-    <section className="bg-[#F8FAFC] pb-20">
+    <section className="bg-[#F7F8F5] pb-20">
       <div className="mx-auto max-w-7xl px-4">
         <div className="overflow-hidden rounded-[30px] border shadow-lg">
           <iframe

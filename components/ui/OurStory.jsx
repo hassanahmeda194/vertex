@@ -2,12 +2,12 @@
 
 export default function OurStory() {
   return (
-    <section className="bg-[#F8FAFC] py-20 lg:py-28">
+    <section className="bg-[#F7F8F5] py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-4">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
           {/* Left Content */}
           <div>
-            <h2 className="text-4xl font-bold text-[#021B52] md:text-5xl">
+            <h2 className="text-4xl font-bold text-[#033C2D] md:text-5xl">
               Our Story
             </h2>
 
@@ -34,7 +34,7 @@ export default function OurStory() {
           {/* Right Image Area */}
           <div className="relative">
             {/* Main Box */}
-            <div className="relative h-[400px] overflow-hidden rounded-[40px] bg-gradient-to-br from-[#0D214D] via-[#7CCCE4] to-[#D8BA67] shadow-2xl md:h-[550px]">
+            <div className="relative h-[400px] overflow-hidden rounded-[40px] bg-gradient-to-br from-[#033C2D] via-[#BD9541] to-[#1F2429] shadow-2xl md:h-[550px]">
               {/* Real Image */}
               {/* <Image
                 src="/about-story.jpg"
@@ -45,7 +45,7 @@ export default function OurStory() {
             </div>
 
             {/* Decorative Shape */}
-            <div className="absolute -bottom-6 -left-6 h-28 w-28 rounded-[28px] bg-gradient-to-br from-pink-500 to-orange-300 md:h-36 md:w-36" />
+            <div className="absolute -bottom-6 -left-6 h-28 w-28 rounded-[28px] bg-gradient-to-br from-[#BD9541] to-[#D6B36A] md:h-36 md:w-36" />
           </div>
         </div>
       </div>

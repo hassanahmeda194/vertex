@@ -5,7 +5,7 @@ import { MessageCircle } from "lucide-react";
 
 export default function CustomQuoteCTA() {
   return (
-    <section className="bg-gradient-to-r from-[#021B52] via-[#0B2457] to-[#2B3B59] py-20">
+    <section className="bg-gradient-to-r from-[#033C2D] via-[#064635] to-[#1F2429] py-20">
       <div className="mx-auto max-w-5xl px-4 text-center">
         <h2 className="text-4xl font-bold text-white md:text-5xl">
           Don't see what you need?
@@ -19,7 +19,7 @@ export default function CustomQuoteCTA() {
         <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <Link
             href="/quote"
-            className="inline-flex items-center justify-center rounded-full bg-[#D8A53B] px-8 py-4 text-lg font-semibold text-[#021B52] transition hover:opacity-90"
+            className="inline-flex items-center justify-center rounded-full bg-[#BD9541] px-8 py-4 text-lg font-semibold text-[#033C2D] transition hover:opacity-90"
           >
             Request a Custom Quote
           </Link>
