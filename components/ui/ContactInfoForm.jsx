@@ -28,7 +28,7 @@ export default function ContactInfoForm() {
                     <p className="text-xs uppercase text-slate-500">WhatsApp</p>
 
                     <h4 className="font-bold text-[#033C2D]">
-                      +92 318 2287473
+                      +92 308 2283078
                     </h4>
 
                     <p className="text-sm text-slate-500">
@@ -49,7 +49,7 @@ export default function ContactInfoForm() {
                     <p className="text-xs uppercase text-slate-500">Phone</p>
 
                     <h4 className="font-bold text-[#033C2D]">
-                      +92 318 2287473
+                      +92 308 2283078
                     </h4>
 
                     <p className="text-sm text-slate-500">Mon-Sat • 10am-9pm</p>
@@ -68,7 +68,7 @@ export default function ContactInfoForm() {
                     <p className="text-xs uppercase text-slate-500">Email</p>
 
                     <h4 className="font-bold text-[#033C2D]">
-                      hello@vertexprint.com
+                      vertexprintsolutions@gmail.com
                     </h4>
                   </div>
                 </div>

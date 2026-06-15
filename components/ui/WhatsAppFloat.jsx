@@ -3,7 +3,7 @@
 export default function WhatsAppFloat({
   message = "Hi Vertex Print Solutions, I need information about your printing services.",
 }) {
-  const phone = "923182287473";
+  const phone = "923082283078";
 
   const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(
     message,

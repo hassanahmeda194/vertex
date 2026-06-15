@@ -2,8 +2,11 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function Header() {
+  const pathname = usePathname();
+
   const navLinks = [
     { name: "Home", href: "/" },
     { name: "Services", href: "/services" },
@@ -31,25 +34,29 @@ export default function Header() {
 
             {/* Navigation */}
             <nav className="hidden md:flex items-center gap-2 rounded-full bg-[#E8ECE5] px-3 py-2">
-              {navLinks.map((item, index) => (
-                <Link
-                  key={item.name}
-                  href={item.href}
-                  className={`px-5 py-2 text-sm font-medium transition ${
-                    index === 0
-                      ? "rounded-full bg-white text-[#1F2937] shadow-sm"
-                      : "text-gray-600 hover:text-black"
-                  }`}
-                >
-                  {item.name}
-                </Link>
-              ))}
+              {navLinks.map((item) => {
+                const isActive = pathname === item.href;
+
+                return (
+                  <Link
+                    key={item.name}
+                    href={item.href}
+                    className={`px-5 py-2 text-sm font-medium transition ${
+                      isActive
+                        ? "rounded-full bg-white text-[#1F2937] shadow-sm"
+                        : "text-gray-600 hover:text-black"
+                    }`}
+                  >
+                    {item.name}
+                  </Link>
+                );
+              })}
             </nav>
 
             {/* Right Side */}
             <div className="flex items-center gap-6">
               <Link
-                href="services"
+                href="/services"
                 className="rounded-full bg-[#BD9541] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#A77F30]"
               >
                 Book an Order
@@ -59,7 +66,6 @@ export default function Header() {
         </div>
       </header>
 
-      {/* Bottom Gradient Line */}
       <div className="h-[3px] w-full bg-gradient-to-r from-[#033C2D] via-[#BD9541] to-[#1F2429]" />
     </>
   );

@@ -44,10 +44,10 @@ export default function Hero() {
             </p>
 
             {/* Buttons */}
-            <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+            <div className="mt-8 flex flex-wrap gap-4">
               <Link
                 href="/order"
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-[#BD9541] px-8 py-4 font-semibold text-black transition hover:opacity-90"
+                className="inline-flex whitespace-nowrap items-center justify-center gap-2 rounded-full bg-[#BD9541] px-8 py-4 font-semibold text-black transition hover:opacity-90 text-sm"
               >
                 Book an Order
                 <ArrowRight size={18} />
@@ -55,14 +55,14 @@ export default function Hero() {
 
               <Link
                 href="/quote"
-                className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/5 px-8 py-4 font-semibold text-white backdrop-blur-sm transition hover:bg-white/10"
+                className="inline-flex whitespace-nowrap items-center justify-center rounded-full border border-white/20 bg-white/5 px-8 py-4 font-semibold text-white backdrop-blur-sm transition hover:bg-white/10 text-sm"
               >
                 Request a Quote
               </Link>
 
               <a
                 href="#"
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-[#4CAF50] px-8 py-4 font-semibold text-white transition hover:bg-[#449d48]"
+                className="inline-flex whitespace-nowrap items-center justify-center gap-2 rounded-full bg-[#4CAF50] px-8 py-4 font-semibold text-white transition hover:bg-[#449d48] text-sm"
               >
                 <MessageCircle size={18} />
                 WhatsApp Us

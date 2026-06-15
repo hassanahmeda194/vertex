@@ -119,12 +119,12 @@ export default function Footer() {
 
               <div className="flex items-start gap-3">
                 <Phone size={16} className="mt-1 text-[#BD9541]" />
-                <span>+92 318 2287473</span>
+                <span>+92 308 2283078</span>
               </div>
 
               <div className="flex items-start gap-3">
                 <Mail size={16} className="mt-1 text-[#BD9541]" />
-                <span>hello@vertexprint.com</span>
+                <span>vertexprintsolutions@gmail.com</span>
               </div>
 
               <div className="flex items-start gap-3">

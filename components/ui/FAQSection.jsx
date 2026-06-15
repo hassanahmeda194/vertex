@@ -100,12 +100,12 @@ export default function FAQSection() {
               </p>
             </div>
 
-            <div className="flex flex-col gap-3 sm:flex-row">
-              <button className="rounded-full bg-[#BD9541] px-8 py-4 font-semibold text-[#033C2D] transition hover:opacity-90">
+            <div className="flex flex-col gap-2 sm:flex-row sm:flex-wrap">
+              <button className="whitespace-nowrap text-sm rounded-full bg-[#BD9541] px-8 py-4 font-semibold text-[#033C2D] transition hover:opacity-90">
                 Book an Order
               </button>
 
-              <button className="rounded-full border border-white/30 px-8 py-4 font-semibold text-white transition hover:bg-white/10">
+              <button className="whitespace-nowrap text-sm rounded-full border border-white/30 px-8 py-4 font-semibold text-white transition hover:bg-white/10">
                 Request a Quote
               </button>
             </div>
